@@ -1,0 +1,9 @@
+#adminSearch li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right:1rem;
+    font-size: .9rem;
+}
+#search{
+    padding:.2em;
+}

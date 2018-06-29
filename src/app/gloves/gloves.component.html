@@ -1,0 +1,30 @@
+<div class="retailItem" class="row">
+  <div class="col-md-4">
+  <div class="retail_item" *ngFor="let items of retailItems">
+    <h4>{{ items.name }}</h4>
+    <img [src]="items.imagePath" width="400" height="250" alt="items.name">
+    <p>{{items.description}}</p>
+    <p [ngStyle]="{color: '#28a745'}">{{ items.price | currency }}</p>
+    
+    <div id="cart">
+        <hr>
+        <select>
+          <option id="color" value="color">Color</option>
+          <option id="pink" value="pink">Pink</option>
+          <option value="navy blue">Navy Blue</option>
+          <option value="cream">Cream</option>
+          <option value="ivory">Ivory</option>
+        </select>
+        <select>
+            <option id="size" value="size">Size</option>
+            <option value="ivory">x-Small</option>
+            <option id="pink" value="pink">Small</option>
+            <option value="navy blue">Medium</option>
+            <option value="cream">Large</option>
+          </select>
+        <button type="button" class="btn-primary">Edit Cart</button>
+        <button type="button" class="btn-success">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>

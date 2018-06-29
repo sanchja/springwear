@@ -1,0 +1,15 @@
+.retail_item { padding: .125 rem; }
+.retail_item img{ margin-bottom:1rem; }
+
+#cart{ margin-bottom: 2rem; }
+
+p { 
+    font-size: .9rem; 
+    line-height: 1.7rem; 
+    padding-right: 2.5rem; 
+}
+
+[type=reset], [type=submit], button, select, html [type=button] { 
+    font-size: .85rem; 
+    margin-right: .75rem; 
+}

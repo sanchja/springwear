@@ -1,0 +1,9 @@
+
+  <div class="retail_item" *ngFor="let items of retailItems">
+    <h4>{{ items.name }}</h4>
+    <img class="img-thumbnail" [src]="items.imagePath" alt="items.name">
+    <p>{{items.description}}</p>
+    <p [ngStyle]="{color: '#28a745'}">{{ items.price | currency }}</p>
+    
+    <app-cart></app-cart>
+  </div>

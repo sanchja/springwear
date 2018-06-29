@@ -1,0 +1,9 @@
+ul {
+    -webkit-padding-start: 10px;
+    margin-right: 10px;
+}
+li{
+    list-style-type: none;
+    line-height: 2rem;
+}
+#sidebar {margin-top:180px; display: none;}

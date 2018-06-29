@@ -1,0 +1,24 @@
+.black_bar {
+    height:40px;
+    display:block;
+    background-color: black;
+    text-align: center;
+    font-size: .8rem;
+    line-height: 40px;
+}
+.black_bar a { color: lightgray; }
+#header{
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: #f6d9ba;
+}
+#sidebar{
+    height: 600px;
+    float: left;
+}
+#fixed_header{
+    position:fixed;
+    width:100%;
+    z-index: 999;
+}
+.container{ padding-top:180px;}
